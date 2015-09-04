@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+    <html class="no-js" lang="eng">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -14,19 +14,25 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+</body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
         <p>Hell hath cometh! HTML 5 ROCKS!.</p>
-        <div id="main">
-            <div id="instructions">Get Ready!</div>
-                <div id="remaining-seconds">5</div>
-            </div>
+        <div id="stats">
+            Statistics
+            <div id="timeRemaining">Remaining: </div>
+            <div id="timeElapsed">Elapsed: </div>
+            <div id="precentComplete"</div>
         </div>
 
+        <div id="main">
+            <div id="instructions">Get Ready!</div>
+            <div id="remaining-seconds">5</div>
+            <button id="startTime">Next Slide</button>
+        </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
@@ -41,5 +47,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
-    </body>
+
+</body>
 </html>

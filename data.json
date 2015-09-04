@@ -9,5 +9,5 @@
   { "instructions": "add it as your remote to the local git_rocks", "seconds" :  50},
   { "instructions": "push the commit you have to github", "seconds":  50},
   { "instructions": "in github:  add hello from github to the Readme file", "seconds" :90},
-  { "instructions": "pull the changes you made in github to your local git_rocks", "seconds":  50}
+  { "instructions": "pull the changes you made in github to your local git_rocks", "seconds":  10}
 ]}
